@@ -30,3 +30,15 @@ Insira o valor para 'Frequência': 6
 Anomalia detectada: Essa transação está sinalizada como fraudulenta (anomalia).
 ```
 
+## Como Utilizar
+
+- Requisitos de Instalação: Verifique se você tem as bibliotecas necessárias instaladas. Você pode instalar as dependências com o seguinte comando:
+```
+pip install -r requirements.txt
+```
+
+- Dados de Treinamento: Prepare seus dados de transações financeiras rotuladas para treinar o modelo. Os recursos importantes devem incluir 'Transaction_Amount', 'Average_Transaction_Amount' e 'Frequency_of_Transactions'. Desative ou edite as colunas renomeadas em casos de erro.
+
+- Treinamento do Modelo: Use o código fornecido para treinar o modelo de detecção de anomalias com base nos seus dados de treinamento.
+
+- Previsões de Anomalia: Com o modelo treinado, você pode fazer previsões de detecção de anomalias para novas transações, fornecendo os valores relevantes.
